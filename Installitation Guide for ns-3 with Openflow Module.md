@@ -174,18 +174,21 @@ $ ./waf build
 
 Now you can play with openflowswitchs :)
 
+##NetAnim
+
+Generate xml file:
+```
+$ ./waf --run "dumbbell-animation --nLeftLeaf=5 --nRightLeaf=5 --animFile=dumbbell.xml"
+$ ./waf --run "grid-animation --xSize=5 --ySize=5 --animFile=grid.xml"
+```
+
+#include "ns3/netanim-module.h"
+std::string animFile = "grid-animation.xml";
+cmd.AddValue ("animFile",  "File Name for Animation Output", animFile);
+AnimationInterface anim (animFile);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Run NetAnim at netanim folder
+```
+$ ./NetAnim
+```
