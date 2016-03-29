@@ -18,6 +18,7 @@ Then download [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop) and ins
 Here is a detailed preinstallation guide for [ns-3 wiki installation](https://www.nsnam.org/wiki/Installation). In that detaile guide, you can choose the library you need for ns-3. Or you can install then all with the following command:
 ```
 $ sudo apt-get install gcc g++ python python-dev mercurial bzr gdb valgrind gsl-bin libgsl0-dev libgsl0ldbl flex bison tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev libgtk2.0-0 libgtk2.0-dev uncrustify doxygen graphviz imagemagick texlive texlive-latex-extra texlive-generic-extra texlive-generic-recommended texinfo dia texlive texlive-latex-extra texlive-extra-utils texlive-generic-recommended texi2html python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev python-pygccxml
+
 ```
 
 ---
